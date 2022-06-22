@@ -1,4 +1,5 @@
 body{
+    margin: 0;
     font-family: 'Poppins', sans-serif;
 }
 h1{
@@ -17,4 +18,37 @@ h1{
 }
 .half img{
     width: 100%;
+}
+.top{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+section{
+    height: 500px;
+    padding-bottom: 120px;
+}
+.butto{
+    text-decoration: none;
+    background-image: linear-gradient(45deg,lightsalmon, tomato);
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 400;
+}
+.butto:hover{
+    background-image: linear-gradient(45deg,rgb(19, 17, 16), rgb(205, 164, 157));
+    color: aqua;
+}
+.buttos{
+    text-decoration: none;
+    background-image: linear-gradient(45deg,lightsalmon, tomato);
+    padding: 10px 40px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 400;
+}
+.mid{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;  
 }
