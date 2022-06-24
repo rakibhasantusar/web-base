@@ -7,6 +7,9 @@ h1{
     font-size: 50px;
     font-weight: 600;
 }
+h2{
+    font-size: 30px;
+}
 .tusu{
     color: orange;
 }
@@ -24,7 +27,7 @@ h1{
     background-repeat: no-repeat;
 }
 section{
-    height: 500px;
+    height: 700px;
     padding-bottom: 120px;
 }
 .butto{
@@ -51,4 +54,33 @@ section{
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;  
+}
+.buttos:hover{
+    background-image: linear-gradient(45deg,rgb(19, 17, 16), rgb(205, 164, 157));
+    color: aqua;
+}
+.sing{
+    box-shadow: 10px 10px 45px grey;
+    border-radius: 5px;
+    height: 60%;
+    margin-top: 40px;
+}
+.experrience_area{
+    background-image: url(images/exp-bg.png);
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: 170px;
+}
+#pro{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, lightsalmon,tomato);
+    border-image-slice: 1;
+}
+#baby{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, blue,cyan);
+    border-image-slice: 1; 
+}
+footer p{
+    text-align: center;
 }
